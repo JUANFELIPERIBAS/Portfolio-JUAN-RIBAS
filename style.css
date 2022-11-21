@@ -1,0 +1,89 @@
+p {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.foto-perfil {
+    height: 100%;
+    max-width: auto;
+    border-radius: 20%;
+}
+
+.icones {
+    padding-left: 5px;
+}
+
+.titulosBrancos {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulosCinzas {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2c3e50
+}
+
+.paragrafoBrancos {
+    color: white !important;
+}
+
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: black !important;
+}
+
+.corPrimaria {
+    background-color: #9498a0;
+}
+
+.itemMenu {
+    color: white;
+}
+
+
+.bg-light ul{
+    display:inline-flex;
+    list-style-type: none;
+    align-items:center;
+}
+
+.bg-light ul li{
+    text-align: center;
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width: 700px){
+
+    .bg-light ul{
+        display: flex;
+        flex-direction: column;
+  
+    }
+
+    .bg-light ul li{
+    margin: 6%  10% 6% 0%;
+    }
+
+  h4{
+font-size: 115%;
+}
+
+}
+
